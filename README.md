@@ -1,66 +1,60 @@
-<h1 align="center">Hi, I'm Bechir Sayadi 👋</h1>
+# Hi, I'm Bechir Sayadi 👋
 
-<p align="center">
-  <b>Cloud & DevOps Engineer · TU Dresden · CS Student</b><br/>
-  Building secure, scalable, and automated cloud infrastructure
-</p>
+**Azure Cloud Engineer · TU Dresden · CS Student**  
+Building secure, automated Azure infrastructure — IaC, AKS, pipelines, and cloud security
 
 ---
 
 ## 🚀 About Me
 
-- 🎓 B.Sc. Computer Science @ **Technische Universität Dresden** (6th semester)
-- ☁️ Passionate about **cloud-native systems**, **infrastructure automation**, and **network security**
-- 🔐 Deep interest in **cryptography** and **zero-trust architectures**
-- 🌍 Fluent in **Arabic · German · English · French** (all C1/C2)
-- 📫 Reach me: **bechirsayadi01@gmail.com**
+- 🎓 B.Sc. Computer Science @ **Technische Universität Dresden** — graduating Sep 2025
+- ☁️ Focused on **Azure infrastructure**, **IaC with Bicep & Terraform**, and **cloud security**
+- 🔐 Completed relevant modules: Cloud Computing, Network Security, Cryptography, Advanced Networking (SDN)
+- 🌍 Arabic C2 · German C1 · English C1 · French C1
+- 📫 **bechirsayadi01@gmail.com**
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Cloud**
-`AWS` `Azure` `GCP`
+**Azure** `AKS` `ACR` `App Service` `Azure Functions` `Blob Storage` `Azure SQL` `VNet` `NSG` `Azure Firewall` `Application Gateway`
 
-**Containers & Orchestration**
-`Docker` `Kubernetes` `Helm` `Podman`
+**IaC & Automation** `Bicep` `Terraform (AzureRM)` `ARM Templates` `Azure CLI` `PowerShell` `Bash`
 
-**IaC & Automation**
-`Terraform` `Ansible` `Pulumi` `Bash`
+**CI/CD** `Azure DevOps Pipelines` `GitHub Actions` `Docker` `Kubernetes` `Helm`
 
-**CI/CD & Monitoring**
-`GitHub Actions` `GitLab CI` `Jenkins` `ArgoCD` `Prometheus` `Grafana`
+**Security** `Entra ID` `RBAC` `Key Vault` `Managed Identities` `Defender for Cloud`
 
-**Security & Networking**
-`IAM` `Zero Trust` `PKI` `TLS/SSL` `VPN` `Firewalls`
+**Monitoring** `Azure Monitor` `Log Analytics` `Application Insights` `Prometheus` `Grafana`
 
-**Languages**
-`Python` `Java` `C/C++` `Rust` `Bash` `SQL`
+**Languages** `Python` `Java` `Bash` `PowerShell` `C/C++` `YAML` `SQL`
 
 ---
 
-## 📌 Featured Projects
+## 📌 Projects
 
-### ☁️ Cloud-Native Deployment Pipeline
-> Containerized Java Spring Boot microservice deployed on Kubernetes · Terraform for AWS EC2 + RDS provisioning · GitHub Actions CI/CD · Prometheus + Grafana monitoring
+### ☁️ [AKS Microservice Deployment](https://github.com/bach47-lab/aks-microservice)
+Infrastructure fully in Terraform — AKS cluster, ACR, Azure SQL, VNet with NSG rules.  
+Azure DevOps pipeline: builds Docker image → pushes to ACR → deploys via Helm.  
+Azure Monitor + Application Insights for observability.
 
-### 🔐 TLS Cryptography Tool
-> Java implementation of a TLS-like handshake: RSA key exchange, Diffie-Hellman, DES encryption · Full PKI and certificate chain simulation
+### 🔒 [Azure Secure Foundation with Bicep](https://github.com/bach47-lab/azure-secure-foundation-bicep)
+Secure Azure environment with Bicep: VNet, Key Vault, Managed Identities, Log Analytics.  
+TLS 1.2 enforced, HTTPS-only storage, RBAC-enabled Key Vault, no hardcoded credentials.  
+Defender for Cloud enabled — explored Secure Score and security recommendations.
 
-### 🌐 Full-Stack Web Application
-> Spring Boot + Thymeleaf + REST API + SQL · Built in a team using Git branching and agile workflow
+### 🔐 [Java TLS Handshake Lab](https://github.com/bach47-lab/java-tls-handshake-lab)
+TLS handshake implemented from scratch in Java — RSA key exchange, Diffie-Hellman, AES.  
+University Cryptography module project at TU Dresden.  
+Deployed behind Azure API Management with TLS certificates from Key Vault.
 
 ---
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bach47-lab&show_icons=true&theme=tokyonight&hide_border=true" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bach47-lab&layout=compact&theme=tokyonight&hide_border=true" width="48%"/>
-</p>
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bach47-lab&show_icons=true&theme=tokyonight&hide_border=true)](https://github.com/bach47-lab)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bach47-lab&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/bach47-lab)
 
 ---
 
-<p align="center">
-  <i>Open to internships and working student positions in Cloud / DevOps / Infrastructure</i>
-</p>
+*Open to working student positions and internships in Azure Cloud / DevOps / Infrastructure*
