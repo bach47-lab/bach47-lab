@@ -2,6 +2,7 @@
 
 Azure Cloud Engineer · TU Dresden · CS Student  
 Building secure, automated Azure infrastructure — IaC, AKS, pipelines, and cloud security
+More details: https://bach47-lab.github.io/
 
 ---
 
